@@ -1,0 +1,134 @@
+h1{
+	text-align: center;
+	margin-top: 50px;
+}
+*{
+	box-sizing : border-box;
+
+}
+.row{
+	width : 100%;
+}
+#hey{
+	
+	position:relative;
+	bottom  : 25px;
+	left: 8px;
+	margin: auto;
+	margin-left: 250px;
+	background-color: lightslategrey;
+	border: 1px solid black;
+	padding-left: 6px;
+	padding-bottom: 4px;
+
+
+}
+#hello{
+	position: relative;
+	bottom: 25px;
+	left : 8px;
+	margin: auto;
+	margin-left: 247px;
+	background-color: lightsalmon;
+	border: 1px solid black;
+	padding-left: 2px;
+	padding-bottom: 4px;
+	
+}
+
+#okay{
+	position : relative;
+	bottom:  25px;
+	left: 8px;
+	margin: auto;
+	margin-left: 200px;
+	background-color: lightsteelblue;
+	border: 1px solid black;
+	padding-left: 7px;
+	padding-bottom: 4px;
+}
+
+
+.row{
+	width : 100%;
+}
+
+.lg-1, .md-6, .sm-3,.lg-1, .md-6,.sm-3  .lg-1, .md-12, .sm-3{
+	background-color: maroon;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-top: 75px;
+	margin-left: 55px;
+	color: white;
+	font-style: oblique;
+	font-weight: bold;
+
+}
+
+/*LARGE SCREEN*/
+@media (min-width :992px){
+	.lg-1{
+		float: left;
+		border : 2px solid black;
+		
+
+	}
+	.lg-1{
+		width: 25%;
+	}
+
+/*MEDIUM SCREENS*/
+@media (min-width :768px) and (max-width:991px){
+	.md-6, .md-12{
+		float: left;
+		border: 2px solid black;
+	}
+    .md-1{
+		width:8.33% ;/*100/12 */
+	}
+
+	.md-2{
+		width: 16.66%;/* 100/12/2=200/12*/
+	}
+	.md-3{
+		width : 25%; /*300/12*/
+	}
+	.md-4{
+		width : 33.33%;/* 400/12 */
+	}
+	.md-5{
+		width: 41.66%;
+	}
+	.md-6{
+		width : 50%;
+	}
+	.md-7{
+		width: 58.33%;
+	}
+	.md-8{
+		width: 66.66%;
+	}
+	.md-9{
+		width: 75%;
+	}
+	.md-10{
+		width: 83.33%;
+	}
+	.md-11{
+		width: 91.66%;
+	}
+	.md-12{
+		width: 100%;
+	}
+
+
+/*MOBILE SCREENS*/
+@media(max-width: 767px){
+	.sm-3{
+		float: left;
+	    border: 2px solid black;
+	}
+
+	.sm-3{
+		width: 100%;
+	}
